@@ -36,8 +36,11 @@ We use a deep learning architecture that combines **embedding layers**, **Bidire
 3. Install dependencies
 4. Ubah sentimen yang awalnya berbentuk string menjadi bentuk angka (0 dan 1)
 5. Visualisasikan data yang telah diubah
-6. Bersihkan k
-4. Jalankan `model.fit(...)`
+6. Bersihkan komentar dari kata-kata yang tidak diperlukan agar mesin dapan memproses kata-kata yang berhubungan dengan analisis
+7. Lakukan tokenisazion pada model
+8. Membagi data train dan memvalidasi data tersebut
+9. Buat model
+10. Jalankan `model.fit(...)`
 
 ## 📂 Dataset Reference
 
